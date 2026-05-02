@@ -45,16 +45,22 @@ Bạn cần chạy đồng thời cả Backend và Frontend trên 2 cửa sổ T
 
 Bước 1: Khởi động Backend (Port 8000)
 Bash
+
 cd Backend
+
 python -m uvicorn Backend.main:app --reload
+
 Kiểm tra trạng thái tại: http://127.0.0.1:8000/health
 
 Bước 2: Khởi động Frontend (Port 8501)
 Mở terminal mới:
 
 Bash
+
 cd Frontend
+
 python -m streamlit run Frontend/app.py
+
 Ứng dụng sẽ tự động mở tại: http://localhost:8501
 
 📺 Video Demo
