@@ -64,4 +64,4 @@ python -m streamlit run Frontend/app.py
 Ứng dụng sẽ tự động mở tại: http://localhost:8501
 
 📺 Video Demo
-[Link Video Demo của bạn tại đây]
+Link : https://drive.google.com/drive/folders/1XvPyCZAdhmrVW-rIn2dP7KpuS5k6vYiI?usp=sharing
