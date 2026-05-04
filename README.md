@@ -51,7 +51,7 @@ cd Backend
 python -m uvicorn Backend.main:app --reload
 
 Kiểm tra trạng thái tại: http://127.0.0.1:8000/health
-
+Kiểm tra dữ liệu ở backend : http://127.0.0.1:8000/notes
 Bước 2: Khởi động Frontend (Port 8501)
 Mở terminal mới:
 
