@@ -3,15 +3,25 @@
 Dự án này là một ứng dụng ghi chú đơn giản được xây dựng theo kiến trúc **Client-Server**. 
 
 ## 🏗 Cấu trúc thư mục
+
 project/
+
 ├── frontend/        # Ứng dụng giao diện người dùng (Streamlit)
+
 │   └── app.py
+
 ├── backend/         # API Server (FastAPI)
+
 │   ├── main.py
+
 │   └── serviceAccountKey.json (Firebase Key)
+
 ├── requirements.txt # Danh sách thư viện cài đặt
+
 └── README.md        # Hướng dẫn sử dụng
+
 🚀 Các tính năng chính
+
 Xác thực người dùng: Đăng nhập và nhận diện thông qua Email (Tích hợp Firebase Auth).
 
 Thêm ghi chú: Người dùng nhập nội dung và gửi request đến Backend.
@@ -21,6 +31,7 @@ Lưu trữ dữ liệu: Backend tiếp nhận và lưu trữ ghi chú.
 Hiển thị danh sách: Đọc dữ liệu từ Backend và hiển thị lại lên giao diện.
 
 🛠 Công nghệ sử dụng
+
 Frontend: Streamlit
 
 Backend: FastAPI
